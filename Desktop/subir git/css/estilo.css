@@ -1,0 +1,94 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+*{
+	box-sizing:border-box;
+}
+.lateral{
+	/*laparte queda fija en la parte*/
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1em;
+	width: 350px;
+	background-color: #56B3AB;
+	max-width: 10000px;
+}
+/*perfil*/
+.perfil__circulo{
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	overflow: hidden;
+}
+.perfil__foto{
+	width: 100%;
+	border-radius: 100%;
+}
+.perfil__nombre{
+	color: #fff;
+	font-size: 20px;
+	width: 250px;
+}
+.perfil__nombres, .perfil__circulo{
+	display: inline-block;
+	vertical-align: middle;
+}
+/*informacion*/
+.informacion{
+	color: #0F6A62;
+	position: absolute;
+	bottom: 1em;
+	max-width: 10000px;
+
+}
+.informacion__titulo{
+	font-size: 18px;
+}
+/*habilidad*/
+.habilidades{
+	padding: 0px;
+}
+.habilidad{
+	background-color: #0F6A62;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding:.5em;
+}
+.habilidad--proyecto{
+	background-color: #29127C;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding:.5em;
+}
+
+.proyectos{
+	
+	background-image: url("../img/codigo.jpg");
+	background-size: cover;
+
+	margin-left: 360px;
+	padding: 0;
+	display: table;
+}
+.proyecto{
+	display: table-cell;
+	width: 50%;
+	padding: 1em;
+}
+.proyecto__imagen{
+	width:80%;
+}
+.proyecto__titulo{
+	color: #29127C;
+	font-size: 18px;
+}
+.proyecto__descripcion{
+	color: #79707F;
+	
+}

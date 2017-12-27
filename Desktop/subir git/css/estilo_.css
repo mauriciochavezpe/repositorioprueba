@@ -1,0 +1,8 @@
+.menu li {
+	display: inline-block;
+	font-size: 25px;
+	padding: 5px;
+	background-color: red;
+	float: left;
+	color: white;
+}

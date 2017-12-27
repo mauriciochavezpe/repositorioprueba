@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Yanone+Kaffeesatz');
+
+*{
+	box-size: border-box;
+}
+img{
+	display: block;
+	max-width: 100%
+}
+body
+{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+
+font-family: 'Yanone Kaffeesatz', sans-serif;
+letter-spacing: 1.5px;
+}
+/*Estilos del header*/
+.header{
+	height: :60px;
+
+}
+.header.contenedor{
+	display: flex
+}
+
+
+.menu{
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	background: #FBA919;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+}
+.nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style-type: square;
+	list-style-position: outside;
+}/*
+aside{
+	text-align: center;
+	width:500px;
+	height: 400px;
+	padding: 5px;
+	border: 5px;
+	margin: 5px;
+	background-color: blue;
+	background-image: url("../angular.png");
+	background-attachment: fixed;
+
+
+}
+*/
+fieldset
+{
+	
+	
+}
+.bdy{
+	background-color: =green;
+}
+
+fieldset{/*
+	margin: 0 auto;
+	width: 280px;
+	margin: 0 auto;
+	border: none;
+	padding: 0 0 10px 0;
+	background-color: white;
+}*/
+form{
+	background-color: white;
+	width: 280px;
+		padding: 0 0 10px 0;
+		margin: 0 auto;
+		border-radius: 600px;
+
+}
+input{
+	display: block;
+	border: none;
+	margin: 20px auto;
+	width: 280px;
+	background-color: #eaeaea;
+	padding: 15px 0 ;
+	text-align:  center;
+	font-size: 18px;
+border-radius: 4px;
+}
+legend{
+	text-align: center;
+}
+input[type="submit"]{
+	background-color: red;
+	color: white;
+	cursor: pointer;	
+}
+input[type="image"]
+{
+	vertical-align: middle;
+}
+
+#preguntas fieldset{
+	border: none;
+	padding: 0;
+	margin: 0;
+
+}
+#preguntas legend{
+	padding: 0;
+}
+#preguntas ul {
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
