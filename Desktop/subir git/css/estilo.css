@@ -57,6 +57,7 @@ html{
 	font-size: 12px;
 	text-transform: uppercase;
 	padding:.5em;
+	border-radius: 5px;
 }
 .habilidad--proyecto{
 	background-color: #29127C;
@@ -65,12 +66,13 @@ html{
 	font-size: 12px;
 	text-transform: uppercase;
 	padding:.5em;
+border-radius: 5px;
 }
 
 .proyectos{
 	
 	background-image: url("../img/codigo.jpg");
-	background-size: cover;
+	background-size: 100%	;
 
 	margin-left: 360px;
 	padding: 0;
@@ -82,7 +84,8 @@ html{
 	padding: 1em;
 }
 .proyecto__imagen{
-	width:80%;
+	width:250px;
+	height:250px;
 }
 .proyecto__titulo{
 	color: #29127C;
